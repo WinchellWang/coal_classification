@@ -1,3 +1,17 @@
+中国煤类型自动分类器，依据国标制作。
+
+Chinese Coal Type Automatic Classifier, made according to the Chinese standard.
+
+# How to Use? 如何使用？
+
+请编辑'CoalData_Sample.csv'中的数据增加需要检测的煤数据，之后运行'main.py'。
+
+煤的类型取决于'Result.csv'中一行内重复最多次的煤类型。
+
+Please input your coal data as required in 'CoalData_Sample.csv' and run 'main.py.'
+
+The coal type based on each criterion will be displayed in 'Result.csv.' The coal type will depend on the most frequent type shown in a row.
+
 # Chinese Coal Classification
 Coal Classification Code based on Chinese Coal Classification Criterion (GB5751)
 
